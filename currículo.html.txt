@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        p, ul {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #555;
+            position: absolute;
+            left: -20px;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Arthur Miguel Kowalczuk de Carvalho</h1>
+        <div class="contact-info">
+            <p>Endereço: Rua, Número, Bairro, Santa Cruz do Sul, RS, CEP</p>
+            <p>Telefone: (XX) XXXX-XXXX | E-mail: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+            <p>LinkedIn (opcional): <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></p>
+            <p>Data de Nascimento: 04/11/2008</p>
+        </div>
+
+        <h2>Objetivo</h2>
+        <p>Estudante de técnico em informática no SENAC, em busca de uma oportunidade para aplicar meus conhecimentos e habilidades em TI, como desenvolvimento de sites, hardware e suporte técnico, contribuindo para o crescimento da empresa. Interesse em desenvolver carreira na área de tecnologia.</p>
+
+        <h2>Formação Acadêmica</h2>
+        <p>SENAC - Técnico em Informática - Santa Cruz do Sul, RS</p>
+        <p>Conclusão prevista: 2026</p>
+
+        <h2>Experiências</h2>
+        <ul>
+            <li>
+                Projeto de infraestrutura de redes para a Zé Pneus: Desenvolvimento da infraestrutura da sala de telemarketing, incluindo cabeamento e configuração.
+            </li>
+            <li>
+                Desenvolvimento de um site de cadastro de ativos, envolvendo design e funcionalidade.
+            </li>
+            <li>
+                Montagem de computadores: Montagem, configuração e otimização de sistemas.
+            </li>
+            <li>
+                Criação de um site de roupas, incluindo layout e organização de produtos.
+            </li>
+        </ul>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desenvolvimento web (HTML, CSS, JavaScript)</li>
+            <li>Manutenção de hardware</li>
+            <li>Montagem e configuração de computadores</li>
+            <li>Conhecimento em infraestrutura de redes</li>
+        </ul>
+
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português: Nativo</li>
+        </ul>
+    </div>
+</body>
+</html>
